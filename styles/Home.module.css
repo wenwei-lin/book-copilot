@@ -146,6 +146,18 @@
   animation-name: loading-gradient;
 }
 
+.docslist {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.doc {
+  border: 1px solid#7a7d81;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
 @keyframes loading-gradient {
   0% {
     background-position: -100% 0;
